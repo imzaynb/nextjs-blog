@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Zayn Baig';
@@ -9,7 +7,7 @@ export const siteTitle = "Zayn's Website";
 
 export default function Layout({ children, home }) {
     return (
-        <div className={styles.container}>
+        <div className="px-5 py-10 grid justify-center min-h-full">
             <Head>
                 <link rel="icon" href='/public/favicon.ico' />
                 <meta
@@ -20,18 +18,18 @@ export default function Layout({ children, home }) {
                 )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`} />
                 <meta name="og:title" content={siteTitle} />
             </Head>
-            <header className={styles.header}>
+            <header className="text-center grid justify-center">
                 {home ? (
                     <>
                         <Image
                             priority
                             src="/some-profile-pic.jpg"
-                            className={utilStyles.borderCircle}
-                            height={144}
-                            width={144}
+                            className="rounded-full"
+                            height={132}
+                            width={132}
                             alt=""
                         />
-                        <h1 className={utilStyles.heading2xl}>{name}</h1>
+                        <h1 className="text-3xl mt-2">{name}</h1>
                     </>
                 ) : (
                     <>
@@ -39,21 +37,21 @@ export default function Layout({ children, home }) {
                             <Image
                                 priority
                                 src="/some-profile-pic.jpg"
-                                className={utilStyles.borderCircle}
+                                className="rounded-full"
                                 height={108}
                                 width={108}
                                 alt=""
                             />
                         </Link>
-                        <h2 className={utilStyles.headingLg}>
-                            <Link href="/" className={utilStyles.colorInherit}>{name}</Link>
+                        <h2 className="mt-3 mb-3 text-lg">
+                            <Link href="/">{name}</Link>
                         </h2>
                     </>
                 )}
             </header>
             <main>{children}</main>
             {!home && (
-                <div className={styles.backToHome}>
+                <div className="mt-3">
                     <Link href="/">← Back to home</Link>
                 </div>
             )}
