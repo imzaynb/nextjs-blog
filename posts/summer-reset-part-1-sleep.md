@@ -34,8 +34,8 @@ My plan for waking up, [based off of this video](https://www.youtube.com/watch?v
 6. Exersize (~8:15a.m to 10a.m.)
 7. "Deliberate Cold Exposure"
    * I heard this is also good for the hair as well, so doubly good!
-8. No caffeine until after exercise. Black tea and Green Tea ideally.
-9. No food until noon.
+8. No caffeine until 8 (good before exercise). Black tea and Green Tea ideally.
+9. No food until 11am.
 10. Go on with day
 
 My plan for going to sleep, [based off of this video](https://www.youtube.com/watch?v=K3eS4jr2pIo)
