@@ -9,4 +9,4 @@ To an outsider this may seem obvious, like of course, but I dunno. For a while, 
 
 Through this, I will employ a couple steps.
 1. [Sleep](/posts/summer-reset-part-1-sleep)
-2. [Exercise](/post/summer-reset-part-2-exercise)
+2. [Exercise](/posts/summer-reset-part-2-exercise)
